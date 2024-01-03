@@ -1,2 +1,4 @@
 # pandas-challenge
-Kung Fu Panda part 4
+the following was taken from chatGPT:
+unique_values = df['my_column'].unique()
+
