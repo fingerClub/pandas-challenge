@@ -16,3 +16,5 @@ grouped = df.groupby('Category')
 # Example: Calculating the mean of each group
 mean_values = grouped.mean()
 print(mean_values)
+# Compute the average math score by school for each grade, without setting 'school_name' as index
+avg9 = df[df['grade'] == '9th'].groupby('school_name', as_index=False).mean()
